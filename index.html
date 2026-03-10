@@ -13,19 +13,19 @@
 		<nav>
 			<ul>
 				<li><a href="#hero">Inicio</a></li>
-				<li><a href="products.html">Productos</a></li>
-				<li><a href="store.html">Carrito</a></li>
-				<li><a href="#footer">Servicios APP</a></li>
-				<li><a href="WorkWithUs.html">Trabaja con Nosotros</a></li>
+				<li><a href="#products">Productos</a></li>
+				<li><a href="cart.html">Carrito</a></li>
+				<li><a href="#footer">Servicios</a></li>
+				<li><a href="">Trabaja con Nosotros</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<main>
-		<section id="hero" class="hero-section" name="hero-section">
+		<section id="hero" class="hero-section">
 			<div class="hero-offers">
 				<h2>Ofertas limitadas</h2>
-				<div class="HorizontalOfferScroll">
+				<div class="CarruselTimedScroll">
 
 				</div>
 			</div>
@@ -43,9 +43,33 @@
 
 		<section>
 			<h2>¡Lo mas vendido!</h2>
+			<div class="CarruselEventScroll">
+				<article class="itemContainer">
+					<img src="assets/img/productos/4.jpg" alt="Imagen de ordenador de mesa">
+					<h3 class="product-title">Asus Mamba570T</h3>
+					<p>Ordenador super actual gaming destructor de gráficas</p>
+					<p class="prize">1100€</p>
+					<button class="buy-button" data-modal-id="modal-4">Add to </button>
+				</article>
+					
+				
+			</div>
 			
 		</section>
 	</main>
+	<div id="modal-4" class="product-modal">
+  <h3>Asus Mamba570T - Especificaciones</h3>
+  <table>
+    <tbody>
+      <tr><th>Motherboard</th><td>ASUS Z170 Pro Gaming</td></tr>
+      <tr><th>GPU</th><td>NVIDIA GeForcer GTX 970</td></tr>
+      <tr><th>CPU</th><td>Intel Core i5-6600K</td></tr>
+      <tr><th>PSU</th><td>Thor Patata 800W Platinum</td></tr>
+      <tr><th>RAM</th><td>16Gb DDR3 Kingston</td></tr>
+      <tr><th>Almacenamiento</th><td>500GB HDD / 250GB SSD</td></tr>
+    </tbody>
+  </table>
+</div>
 </body>
 </html>
 
