@@ -10,12 +10,12 @@
 </head>
 
 <body>
-	<header>
-		<img src="assets/img/otros/Logo.svg" alt="Imagen de logo web">
-		<nav>
+	<header id="header">
+		<a href="#header"><img src="assets/img/otros/Logo.svg" alt="Imagen de logo web"></a>
+		<nav class="main-nav">
 			<ul>
 				<li><a href="#hero">Inicio</a></li>
-				<li><a href="#productos.portatiles">Productos</a></li>
+				<li><a href="#productos">Productos</a></li>
 				<li><a href="cart.html">Carrito</a></li>
 				<li><a href="#footer">Servicios</a></li>
 				<li><a href="#">Trabaja con Nosotros</a></li>
@@ -33,7 +33,7 @@
 			</div>
 		</section>
 
-		<nav>
+		<nav class="category-nav">
 			<a href="#producto-ordenador">Ordenadores</a>
 			<a href="#productos">Dispositivos</a>
 			<a href="#producto-perifericos">Periféricos</a>
@@ -44,7 +44,7 @@
 		</nav>
 
 		<section> <!-- TOP VENTAS -->
-			<h2>¡Lo mas vendido!</h2>
+			<h2>¡Lo más vendido!</h2>
 			<div class="CarruselEventScroll">
 				<article class="itemContainer">
 					<img src="assets/img/productos/4m.jpg" alt="Imagen de ordenador de mesa Asus Mamba570T">
@@ -79,7 +79,7 @@
 				<h3>Ordenadores y portátiles.</h3>
 				<article class="itemContainer">
 					<img src="assets/img/productos/4m.jpg" alt="Imagen de ordenador de mesa Asus Mamba570T">
-					<h3 class="product-title">Asus Mamba570T</h3>
+					<h4 class="product-title">Asus Mamba570T</h4>
 					<p>Ordenador super actual gaming destructor de gráficas</p>
 					<p class="prize">1100€</p>
 
@@ -88,7 +88,7 @@
 
 				<article class="itemContainer">
 					<img src="assets/img/productos/6m.jpg" alt="Imagen de portatil ASUS Radiador 300E">
-					<h3 class="product-title">Asus Radiador 300E</h3>
+					<h4 class="product-title">Asus Radiador 300E</h4>
 					<p>Portátil que lleva en el almacen desde que se usaba el Emule</p>
 					<p class="prize">750€</p>
 					<button class="buy-button" data-id="6">Add to </button>
@@ -96,7 +96,7 @@
 
 				<article class="itemContainer">
 					<img src="assets/img/productos/5m.jpg" alt="Imagen de Funda portatil perrito">
-					<h3 class="product-title">Funda portatil perrito</h3>
+					<h4 class="product-title">Funda portatil perrito</h4>
 					<p>Funda divertida y protectora para tu portátil</p>
 					<p class="prize">25€</p>
 					<button class="buy-button" data-id="5">Add to </button>
@@ -107,21 +107,21 @@
 				<h3>HARDWARE</h3>
 				<article class="itemContainer">
 					<img src="assets/img/productos/7m.jpg" alt="Imagen de RAM">
-					<h3 class="product-title">RAM</h3>
+					<h4 class="product-title">RAM</h4>
 					<p>Memoria RAM para tu ordenador</p>
 					<p class="prize">50€</p>
 					<button class="buy-button" data-id="7">Add to </button>
 				</article>
 				<article class="itemContainer">
 					<img src="assets/img/productos/2m.jpg" alt="Imagen de GeForce GTX460 SE">
-					<h3 class="product-title">GeForce GTX460 SE</h3>
+					<h4 class="product-title">GeForce GTX460 SE</h4>
 					<p>Tarjeta gráfica para gaming y multimedia</p>
 					<p class="prize">200€</p>
 					<button class="buy-button" data-id="2">Add to </button>
 				</article>
 				<article class="itemContainer">
 					<img src="assets/img/productos/3m.jpg" alt="Imagen de Disco duro 500GB HDD">
-					<h3 class="product-title">Disco duro 500GB HDD</h3>
+					<h4 class="product-title">Disco duro 500GB HDD</h4>
 					<p>Almacenamiento extra para tus archivos</p>
 					<p class="prize">60€</p>
 					<button class="buy-button" data-id="3">Add to </button>
@@ -132,7 +132,7 @@
 				<h3>Redes</h3>
 				<article class="itemContainer">
 					<img src="assets/img/productos/8m.jpg" alt="Imagen de Router">
-					<h3 class="product-title">Router</h3>
+					<h4 class="product-title">Router</h4>
 					<p>Router de alta velocidad para tu red doméstica</p>
 					<p class="prize">80€</p>
 					<button class="buy-button" data-id="8">Add to </button>
@@ -143,7 +143,7 @@
 				<h3>Periféricos.</h3>
 				<article class="itemContainer">
 					<img src="assets/img/productos/9m.jpg" alt="Imagen de TV on my PC">
-					<h3 class="product-title">TV on my PC</h3>
+					<h4 class="product-title">TV on my PC</h4>
 					<p>Convierte tu ordenador en un centro multimedia</p>
 					<p class="prize">300€</p>
 					<button class="buy-button" data-id="9">Add to </button>
@@ -154,16 +154,15 @@
 				<h3>Software.</h3>
 				<article class="itemContainer">
 					<img src="assets/img/productos/1m.jpg" alt="Imagen de Kaspersky">
-					<h3 class="product-title">Kaspersky</h3>
+					<h4 class="product-title">Kaspersky</h4>
 					<p>Protección antivirus y seguridad para tu PC</p>
 					<p class="prize">40€</p>
 					<button class="buy-button" data-id="1">Add to </button>
 				</article>
 			</section>
 		</section>
-	</main>
 
-	<!-- MODAL  -->
+		<!-- MODAL  -->
 	<div id="product-modal" class="product-modal" style="display:none;">
 		<button class="close-modal">&times;</button>
 		<img src="assets/img/otros/Placeholder.jpg" alt="Imagen de PlaceHolder" class="modal-img">
@@ -172,6 +171,38 @@
 			<tbody></tbody>
 		</table>
 	</div>
+	</main>
+
+	<footer id="footer">
+		<div class="footer-container">
+
+			<section class="footer-info">
+				<h3>TechStore</h3>
+				<p>Tu tienda de tecnología y hardware de confianza.</p>
+			</section>
+
+			<section class="footer-links">
+				<h3>Enlaces</h3>
+				<ul>
+					<li><a href="#hero">Inicio</a></li>
+					<li><a href="#productos">Productos</a></li>
+					<li><a href="cart.html">Carrito</a></li>
+					<li><a href="#">Trabaja con nosotros</a></li>
+				</ul>
+			</section>
+
+			<section class="footer-contact">
+				<h3>Contacto</h3>
+				<p>Email: info@techstore.com</p>
+				<p>Visita la página oficial: <a href="https://www.appinformatica.com">AppInformatica</a></p>
+			</section>
+
+		</div>
+
+		<div class="footer-copy">
+			<p>© 2026 AppInformatica. Todos los derechos reservados.</p>
+		</div>
+	</footer>
 </body>
 
 </html>
