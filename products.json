@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "nombre": "Kaspersky",
+    "categoria": "software",
+    "precio": 40,
+    "imagen": "assets/img/productos/1m.jpg",
+    "descripcion": "Protección antivirus y seguridad para tu PC",
+    "specs": {
+      "Licencia": "1 Año",
+      "Dispositivos": "1 PC",
+      "SO": "Windows",
+      "Tipo": "Antivirus"
+    }
+  },
+  {
+    "id": 2,
+    "nombre": "GeForce GTX460 SE",
+    "categoria": "hardware",
+    "precio": 200,
+    "imagen": "assets/img/productos/2m.jpg",
+    "descripcion": "Tarjeta gráfica para gaming y multimedia",
+    "specs": {
+      "Tipo": "Tarjeta gráfica",
+      "Memoria": "1 GB GDDR5",
+      "Interfaz": "PCI Express",
+      "Uso": "Gaming / Multimedia"
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "Disco duro 500GB HDD",
+    "categoria": "hardware",
+    "precio": 60,
+    "imagen": "assets/img/productos/3m.jpg",
+    "descripcion": "Almacenamiento extra para tus archivos",
+    "specs": {
+      "Capacidad": "500 GB",
+      "Tipo": "HDD",
+      "Interfaz": "SATA",
+      "Uso": "Almacenamiento"
+    }
+  },
+  {
+    "id": 4,
+    "nombre": "Asus Mamba570T",
+    "categoria": "ordenadores",
+    "precio": 1100,
+    "imagen": "assets/img/productos/4m.jpg",
+    "descripcion": "Ordenador super actual gaming destructor de gráficas",
+    "specs": {
+      "CPU": "Intel Core i7",
+      "RAM": "16 GB",
+      "GPU": "NVIDIA dedicada",
+      "Almacenamiento": "1 TB SSD"
+    }
+  },
+  {
+    "id": 5,
+    "nombre": "Funda portatil perrito",
+    "categoria": "ordenadores",
+    "precio": 25,
+    "imagen": "assets/img/productos/5m.jpg",
+    "descripcion": "Funda divertida y protectora para tu portátil",
+    "specs": {
+      "Tipo": "Funda portátil",
+      "Material": "Tela acolchada",
+      "Compatibilidad": "Hasta 15 pulgadas",
+      "Diseño": "Perrito"
+    }
+  },
+  {
+    "id": 6,
+    "nombre": "Asus Radiador 300E",
+    "categoria": "ordenadores",
+    "precio": 750,
+    "imagen": "assets/img/productos/6m.jpg",
+    "descripcion": "Portátil que lleva en el almacen desde que se usaba el Emule",
+    "specs": {
+      "CPU": "Intel Core i5",
+      "RAM": "8 GB",
+      "Pantalla": "15.6 pulgadas",
+      "Almacenamiento": "512 GB SSD"
+    }
+  },
+  {
+    "id": 7,
+    "nombre": "RAM",
+    "categoria": "hardware",
+    "precio": 50,
+    "imagen": "assets/img/productos/7m.jpg",
+    "descripcion": "Memoria RAM para tu ordenador",
+    "specs": {
+      "Capacidad": "8 GB",
+      "Tipo": "DDR4",
+      "Velocidad": "3200 MHz",
+      "Uso": "Memoria del sistema"
+    }
+  },
+  {
+    "id": 8,
+    "nombre": "Router",
+    "categoria": "redes",
+    "precio": 80,
+    "imagen": "assets/img/productos/8m.jpg",
+    "descripcion": "Router de alta velocidad para tu red doméstica",
+    "specs": {
+      "Tipo": "Router WiFi",
+      "Velocidad": "1200 Mbps",
+      "Bandas": "2.4GHz / 5GHz",
+      "Puertos": "4 LAN"
+    }
+  },
+  {
+    "id": 9,
+    "nombre": "TV on my PC",
+    "categoria": "perifericos",
+    "precio": 300,
+    "imagen": "assets/img/productos/9m.jpg",
+    "descripcion": "Convierte tu ordenador en un centro multimedia",
+    "specs": {
+      "Tipo": "Capturadora / TV para PC",
+      "Conexión": "PCI / USB",
+      "Resolución": "Full HD",
+      "Uso": "Multimedia"
+    }
+  }
+]
